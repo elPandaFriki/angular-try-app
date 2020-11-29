@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-try-app"
+  "defaultProject": "angular-try-app",
+  "cli": {
+    "analytics": "e8dd92c5-e345-41eb-918f-ec19d2f4586f"
+  }
 }
