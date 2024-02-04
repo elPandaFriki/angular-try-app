@@ -4,18 +4,16 @@ import { RouterOutlet } from '@angular/router';
 import { SectionsComponent } from '../Sections/sections.component';
 import { SocialsComponent } from '../Socials/socials.component';
 
-class AppComponentBase {
-  title = 'human';
-}
-
 @Component({
   selector: 'Root',
   standalone: true,
   imports: [RouterOutlet, CommonModule, SectionsComponent, SocialsComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  templateUrl: './root.component.html',
+  styleUrl: './root.component.scss',
 })
-export class AppComponent extends AppComponentBase {
+export class RootComponent {
+  title = 'human';
+
   sections = [
     {
       title: 'Explore the Docs',

@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'Socials',
+  selector: 'SocialsComponent',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './socials.component.html',
